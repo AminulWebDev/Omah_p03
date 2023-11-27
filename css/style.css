@@ -688,6 +688,10 @@ footer {
 .footer_wrapper .footerSocial_icon i {
     color: #EEEDDE;
     font-size: 18px;
+    transition: all linear .3s;
+}
+.footer_wrapper .footerSocial_icon i:hover {
+   color: var(--primary_clr);
 }
 
 /* ==============================
